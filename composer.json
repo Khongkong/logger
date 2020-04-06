@@ -14,8 +14,6 @@
         "psr/log": "^1.1"
     },
     "autoload": {
-        "psr-4": {
-            "Logger\\": "Logger/"
-        }
+        "files": ["Logger/Logger.php"]
     }
 }
